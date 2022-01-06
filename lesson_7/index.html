@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Simple shop.</title>
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="shop">
+                <div id="catalog"></div>
+                <div id="cart">
+                    <img src="https://www.shareicon.net/data/512x512/2015/08/30/93296_basket_512x512.png" alt="Your cart." sizes="20px" id="cart_img">
+                    <div id="cart_block">
+                        <div id="cart_wrapper"></div>
+                        <p id="empty">Your cart is empty.</p>
+                        <div id="address">
+                            <input 
+                            class="form_control" 
+                            id="input_street" 
+                            placeholder="Street">
+                            
+                            <input 
+                            class="form_control" 
+                            id="input_city" 
+                            placeholder="City">
+                    
+                            <input 
+                            class="form_control" 
+                            id="input_state" 
+                            placeholder="State">
+                    
+                            <input 
+                            class="form_control" 
+                            id="input_zip" 
+                            placeholder="Zip">
+                    
+                            <input
+                            class="form_control" 
+                            id="input_county" 
+                            placeholder="County">
+                        </div>
+                        <div id="comment">
+                            <textarea id="comment_area" placeholder="Enter your comment here"></textarea>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+    <script src="catalog.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
